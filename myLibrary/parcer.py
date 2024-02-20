@@ -1,6 +1,6 @@
 import pandas as pd
 
-
+# Выбирает 2500 уникальных цитат из kaggle данных
 df=pd.read_json('quotes/quotes.json')
 unique_quotes = df['Quote'].unique()
 
