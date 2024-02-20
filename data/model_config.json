@@ -1,0 +1,1 @@
+{"input_size": 5841, "output_size": 5841, "embedding_dim": 256, "hidden_size": 512, "num_layers": 2, "dropout_p": 0.5}
