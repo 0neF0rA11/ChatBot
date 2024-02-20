@@ -16,7 +16,7 @@ model = MyLSTMModel(load_config('data/model_config.json'), vocab)
 model.load_state_dict(torch.load('LSTM/best.pth', map_location=torch.device('cpu')))
 model.eval()
 
-bot = telebot.TeleBot('7091465228:AAEmyc3DOPpMA_dJ41UFOc7Wsi1PgiL9ADw')
+bot = telebot.TeleBot('<token>')
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
